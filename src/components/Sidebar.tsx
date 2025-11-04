@@ -14,7 +14,6 @@ const Sidebar: React.FC<SidebarProps> = ({ contactInfo, onNavClick, activeSectio
     { id: 'about', label: 'About' },
     { id: 'resume', label: 'Resume' },
     { id: 'portfolio', label: 'Portfolio' },
-    { id: 'blog', label: 'Blog' },
     { id: 'contact', label: 'Contact' },
   ]
 
