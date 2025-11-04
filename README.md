@@ -2,7 +2,7 @@
 
 Developer portfolio showcasing my work, skills, and experience in web and mobile development.
 
-Dự án này được xây dựng dựa trên template [vCard Personal Portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) sử dụng React và Tailwind CSS.
+Dự án này sử dụng React và Tailwind CSS.
 
 ## Tech Stack
 
