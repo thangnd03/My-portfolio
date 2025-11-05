@@ -68,16 +68,4 @@ export interface PortfolioData {
   projects: Project[]
 }
 
-// Blog Data Types
-export interface BlogPost {
-  title: string
-  category: string
-  date: string
-  excerpt: string
-  link: string
-}
-
-export interface BlogData {
-  posts: BlogPost[]
-}
 

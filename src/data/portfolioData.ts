@@ -1,4 +1,4 @@
-import type { ContactInfo, AboutData, ResumeData, PortfolioData, BlogData } from '../types'
+import type { ContactInfo, AboutData, ResumeData, PortfolioData } from '../types'
 
 export const contactInfo: ContactInfo = {
   name: 'Nguyễn Đức Thắng',
@@ -135,53 +135,6 @@ export const portfolioData: PortfolioData = {
       period: '06/2023 — 08/2023',
       description: 'Develop 2 driver and customer applications, support connecting to find a driver when the customer is drunk and cannot drive and connect a driver who can go to the place the customer booked on the app',
       technologies: ['React Native', 'OneSignal', 'Google Map API', 'Socket.io', 'Redux'],
-    },
-  ],
-}
-
-export const blogData: BlogData = {
-  posts: [
-    {
-      title: 'Design conferences in 2022',
-      category: 'Design',
-      date: 'Fab 23, 2022',
-      excerpt: 'Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.',
-      link: '#',
-    },
-    {
-      title: 'Best fonts every designer',
-      category: 'Design',
-      date: 'Fab 23, 2022',
-      excerpt: 'Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.',
-      link: '#',
-    },
-    {
-      title: 'Design digest #80',
-      category: 'Design',
-      date: 'Fab 23, 2022',
-      excerpt: 'Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.',
-      link: '#',
-    },
-    {
-      title: 'UI interactions of the week',
-      category: 'Design',
-      date: 'Fab 23, 2022',
-      excerpt: 'Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.',
-      link: '#',
-    },
-    {
-      title: 'The forgotten art of spacing',
-      category: 'Design',
-      date: 'Fab 23, 2022',
-      excerpt: 'Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      link: '#',
-    },
-    {
-      title: 'Design digest #79',
-      category: 'Design',
-      date: 'Fab 23, 2022',
-      excerpt: 'Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.',
-      link: '#',
     },
   ],
 }
