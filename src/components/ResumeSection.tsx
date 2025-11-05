@@ -1,11 +1,10 @@
-import React from 'react'
 import type { ResumeData } from '../types'
 
 interface ResumeSectionProps {
   resumeData: ResumeData
 }
 
-const ResumeSection: React.FC<ResumeSectionProps> = ({ resumeData }) => {
+const ResumeSection = ({ resumeData }: ResumeSectionProps) => {
   return (
     <section className="mb-16" id="resume">
       <h2 className="text-3xl font-bold text-gray-900 mb-12">Resume</h2>

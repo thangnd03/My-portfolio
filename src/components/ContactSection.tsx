@@ -1,4 +1,4 @@
-import React, { useState, FormEvent, ChangeEvent } from 'react'
+import { useState, FormEvent, ChangeEvent } from 'react'
 
 interface FormData {
   name: string
@@ -7,7 +7,7 @@ interface FormData {
   message: string
 }
 
-const ContactSection: React.FC = () => {
+const ContactSection = () => {
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',

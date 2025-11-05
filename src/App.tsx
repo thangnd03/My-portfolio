@@ -1,4 +1,3 @@
-import React from 'react'
 import Sidebar from './components/Sidebar'
 import MobileHeader from './components/MobileHeader'
 import AboutSection from './components/AboutSection'
@@ -9,7 +8,7 @@ import { contactInfo, aboutData, resumeData, portfolioData } from './data/portfo
 import useActiveSection from './hooks/useActiveSection'
 import useMobileMenu from './hooks/useMobileMenu'
 
-const App: React.FC = () => {
+const App = () => {
   const { activeSection, handleNavClick } = useActiveSection()
   const { isMenuOpen, toggleMenu, closeMenu } = useMobileMenu()
 

@@ -1,11 +1,10 @@
-import React from 'react'
 import type { AboutData } from '../types'
 
 interface AboutSectionProps {
   aboutData: AboutData
 }
 
-const AboutSection: React.FC<AboutSectionProps> = ({ aboutData }) => {
+const AboutSection = ({ aboutData }: AboutSectionProps) => {
   return (
     <section className="mb-16" id="about">
       <h2 className="text-3xl font-bold text-gray-900 mb-6">About me</h2>

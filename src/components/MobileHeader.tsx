@@ -1,4 +1,3 @@
-import React from 'react'
 import type { ContactInfo } from '../types'
 
 interface MobileHeaderProps {
@@ -6,7 +5,7 @@ interface MobileHeaderProps {
   onMenuToggle: () => void
 }
 
-const MobileHeader: React.FC<MobileHeaderProps> = ({ contactInfo, onMenuToggle }) => {
+const MobileHeader = ({ contactInfo, onMenuToggle }: MobileHeaderProps) => {
   return (
     <header className="lg:hidden fixed top-0 left-0 right-0 bg-gray-900 text-white p-4 z-50 shadow-md">
       <div className="flex items-center justify-between">

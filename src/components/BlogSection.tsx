@@ -1,11 +1,10 @@
-import React from 'react'
 import type { BlogData } from '../types'
 
 interface BlogSectionProps {
   blogData: BlogData
 }
 
-const BlogSection: React.FC<BlogSectionProps> = ({ blogData }) => {
+const BlogSection = ({ blogData }: BlogSectionProps) => {
   return (
     <section className="mb-16" id="blog">
       <h2 className="text-3xl font-bold text-gray-900 mb-6">Blog</h2>

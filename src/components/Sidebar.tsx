@@ -1,4 +1,3 @@
-import React from 'react'
 import type { ContactInfo } from '../types'
 
 interface SidebarProps {
@@ -9,7 +8,7 @@ interface SidebarProps {
   onCloseMenu: () => void
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ contactInfo, onNavClick, activeSection, isMenuOpen, onCloseMenu }) => {
+const Sidebar = ({ contactInfo, onNavClick, activeSection, isMenuOpen, onCloseMenu }: SidebarProps) => {
   const navItems = [
     { id: 'about', label: 'About' },
     { id: 'resume', label: 'Resume' },

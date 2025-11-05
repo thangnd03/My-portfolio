@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import type { PortfolioData } from '../types'
 
 interface PortfolioSectionProps {
   portfolioData: PortfolioData
 }
 
-const PortfolioSection: React.FC<PortfolioSectionProps> = ({ portfolioData }) => {
+const PortfolioSection = ({ portfolioData }: PortfolioSectionProps) => {
   const [activeFilter, setActiveFilter] = useState<string>('all')
 
   const categories = ['all', ...new Set(portfolioData.projects.map(project => project.category))]
