@@ -27,7 +27,7 @@ const Sidebar = ({ contactInfo, onNavClick, activeSection, isMenuOpen, onCloseMe
         isMenuOpen ? 'translate-x-0' : '-translate-x-full'
       }`}>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">{contactInfo.name}</h1>
+        <h1 className="text-2xl font-bold mb-2">{contactInfo.name}</h1>
         <p className="text-gray-400">{contactInfo.title}</p>
       </div>
 
@@ -57,7 +57,7 @@ const Sidebar = ({ contactInfo, onNavClick, activeSection, isMenuOpen, onCloseMe
         </h3>
         <ul className="space-y-3 text-sm">
           <li className="flex items-start gap-3">
-            <span className="text-gray-500 min-w-[80px]">Email:</span>
+            <span className="text-gray-500">Email:</span>
             <a 
               href={`mailto:${contactInfo.email}`}
               className="text-gray-300 hover:text-white transition-colors"
@@ -66,7 +66,7 @@ const Sidebar = ({ contactInfo, onNavClick, activeSection, isMenuOpen, onCloseMe
             </a>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-gray-500 min-w-[80px]">Phone:</span>
+            <span className="text-gray-500">Phone:</span>
             <a 
               href={`tel:${contactInfo.phone}`}
               className="text-gray-300 hover:text-white transition-colors"
@@ -75,11 +75,11 @@ const Sidebar = ({ contactInfo, onNavClick, activeSection, isMenuOpen, onCloseMe
             </a>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-gray-500 min-w-[80px]">Birthday:</span>
+            <span className="text-gray-500">Birthday:</span>
             <span className="text-gray-300">{contactInfo.birthday}</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-gray-500 min-w-[80px]">Location:</span>
+            <span className="text-gray-500">Location:</span>
             <span className="text-gray-300">{contactInfo.location}</span>
           </li>
         </ul>

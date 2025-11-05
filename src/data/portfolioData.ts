@@ -2,36 +2,36 @@ import type { ContactInfo, AboutData, ResumeData, PortfolioData } from '../types
 
 export const contactInfo: ContactInfo = {
   name: 'Nguyễn Đức Thắng',
-  title: 'React Native Developer', // Thay đổi chức danh từ CV của bạn
-  email: 'your.email@example.com', // Thay đổi email từ CV của bạn
-  phone: '+84 xxx xxx xxxx', // Thay đổi số điện thoại từ CV của bạn
-  birthday: 'DD/MM/YYYY', // Thay đổi ngày sinh từ CV của bạn
-  location: 'Vietnam', // Thay đổi địa chỉ từ CV của bạn
+  title: 'React Native Developer',
+  email: 'nguyenthang070103@gmail.com',
+  phone: '0822414458',
+  birthday: '07/01/2003',
+  location: 'Hanoi, Vietnam',
 }
 
 export const aboutData: AboutData = {
-  description: "Tôi là một React Native Developer với kinh nghiệm phát triển các ứng dụng di động cross-platform cho iOS và Android.",
-  additionalInfo: "Chuyên phát triển các ứng dụng mobile sử dụng React Native, JavaScript, Redux, Firebase, Socket.io. Có kinh nghiệm phát triển ứng dụng outsource, sản phẩm và các ứng dụng web CMS.",
+  description: "I am a React Native Developer with experience building cross-platform mobile applications for iOS and Android.",
+  additionalInfo: "Specialized in mobile app development using React Native, JavaScript, Redux, Firebase, and Socket.io. Experienced in outsourcing projects, product development, and CMS web applications.",
   services: [
     {
       icon: '📱',
       title: 'React Native Development',
-      description: 'Phát triển ứng dụng di động cross-platform cho iOS và Android sử dụng React Native.',
+      description: 'Build cross-platform mobile apps for iOS and Android using React Native.',
     },
     {
       icon: '🎨',
       title: 'Mobile UI/UX Design',
-      description: 'Kết hợp với designer để thiết kế giao diện cho ứng dụng mobile.',
+      description: 'Collaborate with designers to create mobile app interfaces.',
     },
     {
       icon: '⚛️',
       title: 'State Management',
-      description: 'Quản lý state hiệu quả với Redux, Context API và các công cụ quản lý state khác.',
+      description: 'Efficient state management with Redux, Context API, and other tools.',
     },
     {
       icon: '💻',
       title: 'React.js Development',
-      description: 'Phát triển ứng dụng web, CMS sử dụng React.js',
+      description: 'Build web applications and CMS using React.js',
     },
   ],
   testimonials: [
@@ -66,7 +66,7 @@ export const resumeData: ResumeData = {
     { 
       name: 'React Native', 
       icon: 'https://reactnative.dev/img/header_logo.svg' 
-    }, // Kỹ năng chính
+    }, // Primary skills
     { 
       name: 'JavaScript', 
       icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' 
@@ -74,7 +74,7 @@ export const resumeData: ResumeData = {
     { 
       name: 'React.js', 
       icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg' 
-    }, // Thỉnh thoảng
+    }, // Occasional
     { 
       name: 'HTML/CSS', 
       icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg' 

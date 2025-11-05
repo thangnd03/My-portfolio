@@ -25,7 +25,7 @@ const App = () => {
         isMenuOpen={isMenuOpen}
         onCloseMenu={closeMenu}
       />
-      <main className="lg:ml-80 flex-1 p-4 lg:p-8 pt-20 lg:pt-8">
+      <main className="lg:ml-80 flex-1 p-4 lg:p-8 pt-24 lg:pt-8">
         <AboutSection aboutData={aboutData} />
         <ResumeSection resumeData={resumeData} />
         <PortfolioSection portfolioData={portfolioData} />

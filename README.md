@@ -2,7 +2,7 @@
 
 Developer portfolio showcasing my work, skills, and experience in web and mobile development.
 
-Dự án này sử dụng React và Tailwind CSS.
+This project uses React and Tailwind CSS.
 
 ## Tech Stack
 
