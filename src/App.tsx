@@ -13,7 +13,7 @@ const App = () => {
   const { isMenuOpen, toggleMenu, closeMenu } = useMobileMenu()
 
   return (
-    <div className="flex min-h-screen bg-gray-50">
+    <div className="flex min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
       <MobileHeader 
         contactInfo={contactInfo}
         onMenuToggle={toggleMenu}
@@ -30,7 +30,7 @@ const App = () => {
         <ResumeSection resumeData={resumeData} />
         <PortfolioSection portfolioData={portfolioData} />
         {/* <BlogSection blogData={blogData} /> */}
-        <ContactSection />
+        <ContactSection contactInfo={contactInfo} />
       </main>
     </div>
   )

@@ -55,10 +55,17 @@ export interface ResumeData {
 }
 
 // Portfolio Data Types
+export interface ProjectLink {
+  label: string
+  url: string
+}
+
 export interface Project {
   title: string
   category: string
   link: string
+  /** Optional labeled links (e.g. store listings, customer/driver apps). */
+  links?: ProjectLink[]
   description?: string
   technologies?: string[]
   period?: string

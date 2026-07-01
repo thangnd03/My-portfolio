@@ -26,8 +26,10 @@ const Sidebar = ({ contactInfo, onNavClick, activeSection, isMenuOpen, onCloseMe
       <aside className={`fixed left-0 top-0 h-full w-80 bg-gray-900 text-white p-8 overflow-y-auto sidebar-scroll z-50 transform transition-transform duration-300 lg:translate-x-0 ${
         isMenuOpen ? 'translate-x-0' : '-translate-x-full'
       }`}>
-      <div className="mb-8">
-        <h1 className="text-2xl font-bold mb-2">{contactInfo.name}</h1>
+      <div className="mb-8 animate-fade-in-up">
+        <h1 className="text-2xl font-bold mb-2 bg-gradient-to-r from-white via-gray-300 to-white bg-[length:200%_auto] bg-clip-text text-transparent animate-gradient-pan">
+          {contactInfo.name}
+        </h1>
         <p className="text-gray-400">{contactInfo.title}</p>
       </div>
 
@@ -37,9 +39,9 @@ const Sidebar = ({ contactInfo, onNavClick, activeSection, isMenuOpen, onCloseMe
             <li key={item.id}>
               <button
                 onClick={() => handleNavClick(item.id)}
-                className={`w-full text-left px-4 py-2 rounded-lg transition-colors ${
+                className={`w-full text-left px-4 py-2 rounded-lg transition-all duration-200 hover:pl-6 ${
                   activeSection === item.id
-                    ? 'bg-gray-800 text-white'
+                    ? 'bg-gray-800 text-white pl-6'
                     : 'text-gray-400 hover:text-white hover:bg-gray-800'
                 }`}
                 aria-current={activeSection === item.id ? 'page' : undefined}
@@ -87,7 +89,7 @@ const Sidebar = ({ contactInfo, onNavClick, activeSection, isMenuOpen, onCloseMe
     </aside>
     {isMenuOpen && (
       <div 
-        className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
+        className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden animate-fade-in"
         onClick={onCloseMenu}
         aria-hidden="true"
       />
